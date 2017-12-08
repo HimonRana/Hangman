@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Häng Himon</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Välkommen till spelet där du ska Hänga Himon.</h2>
+            <img id="hangman" src="images/h0.png" alt="hangman">
+        </article>
+        <section id="letterBoxes" class="flex-container">
+            <ul id="letterBoxesUl">
+        </section>
+        <p id="time"><span id="seconds">00</span><span id="semi">:</span><span id="tens">00</span></p>
+        <button class="startbtn btn--stripe" type="button" id="startGameBtn">Starta spelet</button>
+        <button class="restbtn btn--stripe" type="button" id="restartGameBtn">Restart</button>
+        <section id="gameBoard">
+            <ul id="letterButtons">
+                <li><button class="btn btn--stripe" type="button" disabled value="A">A</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="B">B</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="C">C</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="D">D</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="E">E</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="F">F</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="G">G</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="H">H</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="I">I</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="J">J</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="K">K</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="L">L</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="M">M</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="N">N</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="O">O</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="P">P</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="Q">Q</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="R">R</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="S">S</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="T">T</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="U">U</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="V">V</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="W">W</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="X">X</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="Y">Y</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="Z">Z</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="Å">Å</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="Ä">Ä</button></li>
+                <li><button class="btn btn--stripe" type="button" disabled value="Ö">Ö</button></li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        Chas Academy - Hangman
+    </footer>
+</body>
+
+</html>
